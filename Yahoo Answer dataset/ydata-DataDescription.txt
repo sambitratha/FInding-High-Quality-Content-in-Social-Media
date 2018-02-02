@@ -1,0 +1,62 @@
+Dataset: ydata-search-novelty-based-answers-ranking-v1_0
+ 
+CQA healthcare-related answers annotated with mapping between textual propositions within each answer and relevant aspects to the target question
+ 
+=====================================================================
+This dataset is provided as part of the Yahoo! Webscope program, to be used for approved non-commercial research purposes by recipients who have signed a Data Sharing Agreement with Yahoo!. This dataset is not to be redistributed. No personally identifying information is available in this dataset. More information about the Yahoo! Webscope program is available at
+http://research.yahoo.com
+=====================================================================
+ 
+Full description:
+
+This dataset contains two files, both formatted using JSON:
+
+ydata-110_examples.text.json	raw text and meta-data for all questions and answers
+
+ydata-110_examples.relevant_propositions.json	aspect clusters per question, each containing all related propositions
+
+
+The first file (ydata-110_examples.text.json) contains 110 entries, each referring to one question that was posted to Yahoo Answers under one of the categories within the Health top category, and received at least 5 answers. Each example contains the following information:
+
+question_id  -  the question id within the Yahoo Answers database (enables Web lookup of the question page)
+
+question_timestamp: the post time of the question in seconds since the epoch
+
+title: the question’s title text
+
+body: the question’s body text (if exists)
+
+answers: a list of all the answers posted for this question
+
+
+Each answer entry contains:
+
+answer_text: the answer text
+	
+answer_timestamp: the post time of the answer in seconds since the epoch
+	
+is_best_answer: true/false whether this answer was chosen as best answer
+
+thumbs_up: the amount of thumbs up this answer received	
+
+thumbs_dowb: the amount of thumbs down this answer received	
+
+
+
+
+The second file (ydata-110_examples.relevant_propositions.json) contains 110 entries, each referring to one question in the first file. Each entry in this file contains a list of clusters, each representing a distinct aspect that is addressed in the answers provided for the referred question. Each cluster contains a list of textual propositions, copied excerpts from the answers provided to the referred question in the first file, where all propositions corresponds to the given aspect of this cluster. The schema of each entry is as follows:
+
+question_id: the id of question (in the first file) that this entry refers to
+
+proposition_clusters: a list of clusters, each represents a distinct answer aspect; each cluster is a list of propositions, textual excerpts appearing in the various answers for the referred question
+
+
+We note that the propositions within each cluster are copied (up to white-space normalization and lower-casing) as is from the answers, and therefore can be mapped to a specific answer by a simple text match. We also note that some propositions may be duplicates, if they appear in several answers.
+
+
+For sake of user protection, we anonymized all user self age references of ages 19 or lower into the pattern YY, e.g. “I’m 18 years old” -> “I’m YY years old”.
+
+
+[1] Adi Omari, David Carmel, Oleg Rokhlenko, and Idan Szpektor. Novelty based Ranking of Human Answers for Community Questions. Proceedings of SIGIR 2016.
+
+
