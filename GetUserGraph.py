@@ -28,7 +28,9 @@ class Answer:
 		self.timestamp = timestamp
 		self.thumbsup = int(thumbsup)
 		self.thumbsdown = int(thumbsdown)
-		self.is_best_answer = int(is_best_answer)
+		self.is_best_answer = False
+		if is_best_answer == 'True':
+			self.is_best_answer = True
 		self.source = source
 		self.questionid = questionid
 
@@ -61,7 +63,10 @@ class User:
 
 
 def process_data(data):
+	c = 0
 	for line in data:
+		print c 
+		c += 1
 		[question, title, id, timestamp, userid] = line[:5]
 		newq = Question(question, title, id, timestamp, userid)
 		if userid not in allusers:
@@ -70,7 +75,7 @@ def process_data(data):
 		else:
 			allusers[userid].quesions_asked.append(newq)
 
-		no_of_answers = line[5]
+		no_of_answers = int(line[5])
 		cur = 6
 		for i in range(no_of_answers):
 			[userid, timestamp, ans, thumbsup, thumbsdown, is_best_answer, source] = line[cur:cur + 7]
@@ -104,14 +109,39 @@ def createNormalGraph():
 					GraphA.add_edge(u, v, weight = 1)
 
 
-
 toydata = []
 
+def read_file(file):
+	global toydata
+	flag = False
+	counter = -1
+	with open(file, "rb") as f:
+		reader = csv.reader(f, delimiter = ",")
+		for i, line in enumerate(reader):
+			#print len(line)
+			#print 'line[{}] = {}'.format(i, line)
+			if flag == False:
+				flag = True
+				toydata.append(line)
+				counter = int(line[5])
+			else:
+				toydata[-1].extend(line[6:])
+				counter -= 1
+				if counter == 0:
+					flag = False
 
-process_data(toydata)
-createNormalGraph()
 
-print list(GraphA.edges)
+
+
+if __name__ == '__main__':
+	read_file("modified_data.csv")
+	toydata = toydata[:100]
+	#print toydata[100]
+	#print toydata[0]
+	process_data(toydata)
+	createNormalGraph()
+
+	print list(GraphA.nodes)
 
 
 
