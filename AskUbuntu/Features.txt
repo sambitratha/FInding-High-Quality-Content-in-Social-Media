@@ -1,0 +1,29 @@
+/* Question Features */
+PostTypeId="1"
+AcceptedAnswerId
+CreationDate
+Score
+ViewCount
+Body
+OwnerUserId
+LastEditorUserId
+LastEditDate
+LastActivityDate
+Title
+AnswerCount
+CommentCount
+FavoriteCount
+
+
+/* Answer Features */
+PostTypeId="2"
+ParentId
+CreationDate
+Score
+Body
+OwnerUserId
+LastEditorUserId
+LastEditDate
+LastActivityDate
+CommentCount
+
