@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tags>
+  <row Id="1" TagName="battery" Count="781" ExcerptPostId="56974" WikiPostId="56973" />
+  <row Id="2" TagName="notification" Count="503" ExcerptPostId="60037" WikiPostId="60036" />
+  <row Id="4" TagName="software-center" Count="2148" ExcerptPostId="23972" WikiPostId="23971" />
+  <row Id="6" TagName="upgrade" Count="4706" ExcerptPostId="31700" WikiPostId="31699" />
+  <row Id="7" TagName="live-cd" Count="639" ExcerptPostId="33366" WikiPostId="33365" />
+  <row Id="8" TagName="server" Count="7629" ExcerptPostId="31533" WikiPostId="31532" />
+  <row Id="9" TagName="ssh" Count="2649" ExcerptPostId="31545" WikiPostId="31544" />
+  <row Id="10" TagName="vnc" Count="492" ExcerptPostId="57694" WikiPostId="57693" />
+  <row Id="11" TagName="community" Count="144" ExcerptPostId="29705" WikiPostId="29704" />
+  <row Id="14" TagName="xfce" Count="1056" ExcerptPostId="75622" WikiPostId="75621" />
+  <row Id="15" TagName="remote-desktop" Count="541" ExcerptPostId="60035" WikiPostId="60034" />
+  <row Id="16" TagName="updates" Count="3561" ExcerptPostId="33123" WikiPostId="33122" />
+  <row Id="19" TagName="flash" Count="1160" ExcerptPostId="31746" WikiPostId="31745" />
+  <row Id="20" TagName="64-bit" Count="1714" ExcerptPostId="31564" WikiPostId="31563" />
+  <row Id="22" TagName="update-manager" Count="1233" ExcerptPostId="33091" WikiPostId="33090" />
+  <row Id="23" TagName="xrandr" Count="370" ExcerptPostId="58912" WikiPostId="58911" />
+  <row Id="25" TagName="displaylink" Count="54" ExcerptPostId="7297" WikiPostId="7296" />
+  <row Id="26" TagName="mouse" Count="1939" ExcerptPostId="31733" WikiPostId="31732" />
+  <row Id="29" TagName="filesystem" Count="1568" ExcerptPostId="26231" WikiPostId="26230" />
+  <row Id="30" TagName="installation" Count="7448" ExcerptPostId="27945" WikiPostId="27944" />
+  <row Id="31" TagName="10.04" Count="1987" ExcerptPostId="3572" WikiPostId="3464" />
+  <row Id="32" TagName="panel" Count="484" ExcerptPostId="33104" WikiPostId="33103" />
+  <row Id="33" TagName="applet" Count="165" ExcerptPostId="57685" WikiPostId="57684" />
+  <row Id="35" TagName="lts" Count="442" ExcerptPostId="72724" WikiPostId="72723" />
+  <row Id="38" TagName="lamp" Count="542" ExcerptPostId="57713" WikiPostId="57712" />
+  <row Id="39" TagName="mysql" Count="1368" ExcerptPostId="48139" WikiPostId="48138" />
+  <row Id="40" TagName="php" Count="1401" ExcerptPostId="48592" WikiPostId="48591" />
+  <row Id="42" TagName="performance" Count="883" ExcerptPostId="31750" WikiPostId="31749" />
+  <row Id="43" TagName="encryption" Count="1302" ExcerptPostId="31770" WikiPostId="31769" />
+  <row Id="44" TagName="email" Count="754" ExcerptPostId="33100" WikiPostId="33099" />
+  <row Id="46" TagName="mta" Count="17" />
+  <row Id="47" TagName="cleanup" Count="87" ExcerptPostId="390541" WikiPostId="390540" />
+  <row Id="48" TagName="kate" Count="58" ExcerptPostId="73268" WikiPostId="73267" />
+  <row Id="49" TagName="touchpad" Count="1552" ExcerptPostId="31776" WikiPostId="31775" />
+  <row Id="50" TagName="gnome" Count="5414" ExcerptPostId="5023" WikiPostId="5022" />
+  <row Id="51" TagName="libnotify" Count="37" />
+  <row Id="52" TagName="session" Count="226" ExcerptPostId="120236" WikiPostId="120235" />
+  <row Id="53" TagName="wallpaper" Count="477" ExcerptPostId="17418" WikiPostId="17417" />
+  <row Id="54" TagName="artwork" Count="7" />
+  <row Id="55" TagName="photography" Count="22" />
+  <row Id="56" TagName="ldap" Count="175" ExcerptPostId="76727" WikiPostId="76726" />
+  <row Id="57" TagName="nfs" Count="339" ExcerptPostId="57708" WikiPostId="57707" />
+  <row Id="58" TagName="gui" Count="931" ExcerptPostId="33344" WikiPostId="33343" />
+  <row Id="59" TagName="indicator" Count="1022" ExcerptPostId="12538" WikiPostId="12537" />
+  <row Id="60" TagName="clock" Count="114" ExcerptPostId="390283" WikiPostId="390282" />
+  <row Id="61" TagName="empathy" Count="365" ExcerptPostId="28821" WikiPostId="28820" />
+  <row Id="62" TagName="startup" Count="1076" ExcerptPostId="17439" WikiPostId="17438" />
+  <row Id="63" TagName="8.04" Count="60" ExcerptPostId="49333" WikiPostId="49332" />
+  <row Id="65" TagName="vim" Count="474" ExcerptPostId="12201" WikiPostId="12200" />
+  <row Id="66" TagName="colors" Count="310" ExcerptPostId="390551" WikiPostId="390550" />
+  <row Id="67" TagName="sync" Count="708" ExcerptPostId="31744" WikiPostId="31743" />
+  <row Id="68" TagName="configuration" Count="1004" ExcerptPostId="31526" WikiPostId="31525" />
+  <row Id="69" TagName="user-data" Count="25" />
+  <row Id="70" TagName="multiple-workstations" Count="18" />
+  <row Id="71" TagName="kde" Count="1395" ExcerptPostId="33088" WikiPostId="33087" />
+  <row Id="72" TagName="package-management" Count="4574" ExcerptPostId="31513" WikiPostId="31512" />
+  <row Id="74" TagName="aptitude" Count="280" ExcerptPostId="49329" WikiPostId="49328" />
+  <row Id="75" TagName="synaptic" Count="358" ExcerptPostId="36134" WikiPostId="36133" />
+  <row Id="76" TagName="gmail" Count="192" ExcerptPostId="74581" WikiPostId="74580" />
+  <row Id="78" TagName="compatibility" Count="267" ExcerptPostId="139849" WikiPostId="139848" />
+  <row Id="80" TagName="permissions" Count="3407" ExcerptPostId="32701" WikiPostId="32700" />
+  <row Id="81" TagName="mac" Count="853" ExcerptPostId="17470" WikiPostId="17469" />
+  <row Id="82" TagName="live-usb" Count="1513" ExcerptPostId="38266" WikiPostId="38265" />
+  <row Id="83" TagName="multimedia" Count="209" ExcerptPostId="82673" WikiPostId="82672" />
+  <row Id="87" TagName="sound" Count="4495" ExcerptPostId="31519" WikiPostId="31518" />
+  <row Id="88" TagName="equalizer" Count="19" />
+  <row Id="90" TagName="rvm" Count="79" ExcerptPostId="130613" WikiPostId="130612" />
+  <row Id="91" TagName="ruby" Count="356" ExcerptPostId="76715" WikiPostId="76714" />
+  <row Id="93" TagName="uninstall" Count="1537" ExcerptPostId="48578" WikiPostId="48577" />
+  <row Id="94" TagName="haskell" Count="39" ExcerptPostId="302714" WikiPostId="302713" />
+  <row Id="97" TagName="headphones" Count="421" ExcerptPostId="76251" WikiPostId="76250" />
+  <row Id="98" TagName="speakers" Count="219" ExcerptPostId="423233" WikiPostId="423232" />
+  <row Id="101" TagName="launchpad" Count="379" ExcerptPostId="33338" WikiPostId="33337" />
+  <row Id="102" TagName="iptables" Count="567" ExcerptPostId="76578" WikiPostId="76577" />
+  <row Id="103" TagName="security" Count="1362" ExcerptPostId="11220" WikiPostId="11219" />
+  <row Id="104" TagName="ipv6" Count="170" ExcerptPostId="67830" WikiPostId="67829" />
+  <row Id="106" TagName="support" Count="91" ExcerptPostId="185005" WikiPostId="185004" />
+  <row Id="107" TagName="themes" Count="1440" ExcerptPostId="31758" WikiPostId="31757" />
+  <row Id="108" TagName="icons" Count="1417" ExcerptPostId="59283" WikiPostId="59282" />
+  <row Id="109" TagName="pointers" Count="17" />
+  <row Id="110" TagName="appearance" Count="169" ExcerptPostId="139853" WikiPostId="139852" />
+  <row Id="113" TagName="format" Count="419" ExcerptPostId="74590" WikiPostId="74589" />
+  <row Id="115" TagName="testing" Count="68" ExcerptPostId="61754" WikiPostId="61753" />
+  <row Id="116" TagName="tablet" Count="363" ExcerptPostId="100151" WikiPostId="100150" />
+  <row Id="118" TagName="multi-touch" Count="364" ExcerptPostId="78920" WikiPostId="78919" />
+  <row Id="119" TagName="hardware" Count="1044" ExcerptPostId="31515" WikiPostId="31514" />
+  <row Id="122" TagName="editor" Count="95" ExcerptPostId="164403" WikiPostId="164402" />
+  <row Id="123" TagName="gedit" Count="577" ExcerptPostId="48137" WikiPostId="48136" />
+  <row Id="124" TagName="text" Count="198" ExcerptPostId="253989" WikiPostId="253988" />
+  <row Id="125" TagName="mail" Count="258" ExcerptPostId="161812" WikiPostId="161811" />
+  <row Id="126" TagName="imap" Count="56" ExcerptPostId="191111" WikiPostId="191110" />
+  <row Id="127" TagName="xubuntu" Count="2969" ExcerptPostId="48596" WikiPostId="48595" />
+  <row Id="128" TagName="cloud" Count="434" ExcerptPostId="81520" WikiPostId="81519" />
+  <row Id="129" TagName="uec" Count="13" ExcerptPostId="129531" WikiPostId="129530" />
+  <row Id="131" TagName="presentation" Count="49" />
+  <row Id="132" TagName="python" Count="2303" ExcerptPostId="17476" WikiPostId="17475" />
+  <row Id="133" TagName="packaging" Count="510" ExcerptPostId="22680" WikiPostId="22679" />
+  <row Id="135" TagName="mono" Count="234" ExcerptPostId="72530" WikiPostId="72529" />

@@ -1,0 +1,110 @@
+13	10	0	Using /opt helps me keep track of the applications I've installed myself.	2010-07-28T19:36:59.773	10
+15	10	0	but popping in a live cd I already have isn't going to work huh?	2010-07-28T19:38:39.723	10
+17	50	0	That will revert the splash screen as well as the login? I almost did that, but grew hesitant.	2010-07-28T19:39:05.823	50
+21	12	0	I think you meant "Software Sources", not "Update Manager"	2010-07-28T19:41:23.820	12
+22	63	0	@DLH apparently not... :(	2010-07-28T19:41:28.907	63
+31	96	2	"ssh -X <server> <program>" should set up everything (I've never needed to touch xauth myself, though it does need to be installed in order for the -X option on ssh to work).	2010-07-28T19:46:14.027	96
+33	10	0	@Suppressingfire: Oh thanks. I guess I should have included the command myself.	2010-07-28T19:48:23.257	10
+34	56	0	Can you please rephrase the question as "How do I change how long notifications are displayed?"; "Notification Display Time" is pretty confusing, and not phrased as a question.	2010-07-28T19:48:27.343	56
+35	91	0	edited, thanks.	2010-07-28T19:49:18.810	91
+36	5	0	It probably should... I imagine that when the xfce4 package is removed, it restores the splash screen, etc. from before it was installed.	2010-07-28T19:49:21.460	5
+38	5	0	Do you mean the calendar applet? I'm not aware of a clock in the Indicator Applet.	2010-07-28T19:50:28.540	5
+39	5	0	Quick and simple. +1	2010-07-28T19:50:48.447	5
+40	4	0	Have you checked if this is solved in lucid?	2010-07-28T19:50:57.963	4
+41	104	1	Might be related to https://bugs.kde.org/show_bug.cgi?id=222014 - in any case, I have the same problem on Gentoo so it definitely seems to be a Kate bug, not anything specific to Kubuntu.	2010-07-28T19:51:00.770	104
+42	35	0	...weren't you involved in the creation of the Ubuntu artwork pool?	2010-07-28T19:51:17.010	35
+43	4	0	Do you use Gnome or KDE?	2010-07-28T19:51:45.743	4
+45	66	0	This causes data loss. What happens if he wants to get his work back later?	2010-07-28T19:52:44.400	66
+46	4	0	no the live CD does not work. You need to use the alternative CD	2010-07-28T19:53:04.290	4
+48	35	0	Does this let them install from Synaptic or aptitude, or just apt-get?	2010-07-28T19:55:17.953	35
+49	4	2	LDAP and nfs are two different issues. What about using LDAP for authentication and autofs to automatically mount the home directory via nfs?	2010-07-28T19:56:10.570	4
+50	27	0	Can I use it on a Windows machine?	2010-07-28T19:56:14.113	27
+51	45	1	That's a good tip, but if you do it that way your sesion won't be saved right?	2010-07-28T19:56:37.230	45
+53	86	0	That is probably true. I don't use session saving so I didn't think about that.	2010-07-28T19:58:16.557	86
+54	24	0	Yes, removing the package indicator-me gave me exactly the panel I wanted. Thanks!	2010-07-28T19:58:18.960	24
+55	50	0	kdm is the display manager, its the splash and login I'm trying to fix :)	2010-07-28T19:58:29.193	50
+57	56	4	Marco, thank you for your answer, you seem to have an excellent grasp of home folder encryption. Just for the benefit of less technical users, can you spare me all the technical detail and answer the question as if I were asking as a computer-illiterate user?	2010-07-28T20:00:33.260	56
+58	66	0	If you were to add "/usr/bin/synaptic" to the list, it would. In fact, you could probably add "/usr/bin/software-center" to the list and it'd work. Haven't tested that though, let me know if it works and I'll update the answer.	2010-07-28T20:01:07.953	66
+60	56	0	Yes, I'm just asking for the benefit of others!	2010-07-28T20:02:42.847	56
+62	10	0	hmm that would be nice, because then it would keep most of my configuration as well.	2010-07-28T20:05:06.617	10
+63	27	1	I have also seen people recommending tasksel. Maybe someone could explain what this one is good for too?	2010-07-28T20:06:45.600	27
+64	12	3	Search "Ubuntu Software Center" for gm-notify to install.	2010-07-28T20:07:34.350	12
+65	66	2	`tasksel` is for selecting specific tasks, not for installing J. Random Package.	2010-07-28T20:08:03.320	66
+66	24	0	I feel your pain. While there are certainly technical solutions available, I am not sure which approach is most applicable to your situation and your conditions. Nevertheless I would probably ask the question at http://serverfault.com/ instead, considering the very general sysadmin character of the question.	2010-07-28T20:08:05.003	24
+67	5	1	Where *is* your PPA?	2010-07-28T20:08:53.317	5
+68	35	0	I'll try that. :)	2010-07-28T20:09:36.607	35
+70	4	0	Sorry.. I am not so fast :D https://launchpad.net/~txwikinger/+archive/php5.2	2010-07-28T20:10:35.933	4
+71	4	1	How did you install it? Did you use the the Ubuntu packages?	2010-07-28T20:13:36.550	4
+72	50	0	I also think you meant `remove` , not `uninstall`?	2010-07-28T20:13:43.493	50
+74	4	3	This is called re-install, isn't it? :D	2010-07-28T20:14:31.807	4
+75	41	2	I amended my answer to reflect a simpler viewpoint	2010-07-28T20:14:43.647	41
+77	46	0	Just to be clear, it will wipe /etc.  So while you get to keep all your configuration data in /home, you'll lose system-wide configuration.	2010-07-28T20:17:41.533	46
+79	35	0	GIMP is no longer included in Ubuntu Desktop edition. Your point is still valid, though. :)	2010-07-28T20:19:44.883	35
+80	56	1	Thank you! (There are some formatting quirks, though)	2010-07-28T20:20:50.403	56
+82	41	0	The second bullet is a sub-bullet of the first point I'll make that more obvious.
+
+There that should make more sense.	2010-07-28T20:23:52.983	41
+87	88	0	Thanks, that worked.  I wonder when I installed that though.  Maybe it came with another package.	2010-07-28T20:29:11.070	88
+88	38	0	Perfect! Thanks!	2010-07-28T20:29:14.813	38
+90	4	0	+1 for the great analysis of pros and cons!	2010-07-28T20:31:45.837	4
+91	10	0	+1 agreed. very nice.	2010-07-28T20:32:59.657	10
+92	10	0	oh really? hmm I guess I'm out of the loop.	2010-07-28T20:35:16.733	10
+93	66	0	You can symbolically link folders into `~/Dropbox` with `ln -s`, which achieves something similar.	2010-07-28T20:35:48.027	66
+95	35	0	Did you install Unity? Unity uses it, and so installs the package on install.	2010-07-28T20:38:18.987	35
+97	66	3	gufw wraps `ufw`, not `iptables`, and doesn't support all of `iptables`' functionality.	2010-07-28T20:47:15.393	66
+98	84	0	He did ask for a reset :)	2010-07-28T20:48:12.410	84
+99	128	0	Will that not mean I'll need to mount the partition manually once I log in?	2010-07-28T20:50:47.053	128
+100	56	0	At long last! Thank you.	2010-07-28T20:50:55.993	56
+102	68	0	I did this part and even set it to 'example.com'.  In the email headers, though, it still shows:
+`Received: from Fermat (mail.example.com [11.22.33.44])`	2010-07-28T20:52:11.217	68
+103	122	2	Yes, X forwarding works with windows. I have used it with [Cygwin/X](http://en.wikipedia.org/wiki/Cygwin/X), on Windows XP. Not the fastest or prettiest, but does work.	2010-07-28T20:53:14.973	122
+108	104	1	@lfaraone: yep, that's what I was saying about symlinking things into the Dropbox folder.	2010-07-28T20:56:39.130	104
+110	41	0	I'm not sure I don't recall that specific options repercussions. However comparing the fstab line from your desktop and the one on your laptop I would try removing the `auto` option all together.	2010-07-28T20:59:56.330	41
+111	5	0	@Tim: He-he... my bad.	2010-07-28T21:07:33.193	5
+113	104	0	+1 I like this, although it's somewhat more complex than Firestarter. It's targeted at multi-system administrators.	2010-07-28T21:10:55.260	104
+114	104	18	A side benefit of this route is showing the computer manufacturers see that there is a demand for PCs with something other than Windows preinstalled.	2010-07-28T21:14:01.373	104
+117	88	1	Looks good enough. I'll have to test it out.	2010-07-28T21:20:11.300	88
+118	41	4	Agree with David - that's Bug #1 for Ubuntu https://bugs.launchpad.net/ubuntu/+bug/1	2010-07-28T21:20:12.813	41
+119	5	4	Why is the GIMP overkill?	2010-07-28T21:22:37.543	5
+121	88	9	There is just so many options that they confuse me, especially since I don't use the program often, and I tend to forget how to do things in it.	2010-07-28T21:29:50.590	88
+122	5	1	The toolbars have almost the same button layout as the GIMP!	2010-07-28T21:30:49.620	5
+123	5	4	Can you please elaborate further?	2010-07-28T21:31:42.867	5
+127	119	33	That is one ugly GUI.	2010-07-28T21:38:41.543	119
+128	119	1	You should remove netbook from your question altogether. Not the word you're looking for.	2010-07-28T21:40:51.793	119
+129	94	6	I think you should edit the question to something like "How do I go back from XFCE to KDE?". 
+
+The current question is too vague and informal, and honestly, every time I saw it in the homepage I just ignored it thinking it was something like "help me! I'm f***g crazy about Ubuntu and won't go back to Windows!!!!" :D	2010-07-28T21:44:07.207	94
+130	5	0	-1 That will not bring back the **Kubuntu** splash screen as mentioned in the question.	2010-07-28T21:44:21.420	5
+132	88	0	It doesn't behave exactly like Notepad++, but it'll suffice for the time being.	2010-07-28T21:47:33.820	88
+133	88	0	Looks interesting.  I'll have to keep my eye on this one.	2010-07-28T21:52:18.390	88
+135	5	0	Is it released under an OSI-approved license?	2010-07-28T21:58:44.987	5
+137	28	0	This is the easiest way of making it available to Ubuntu users.	2010-07-28T22:09:07.133	28
+138	66	0	What happens when you mount the disk manually in Ubuntu? (`sudo mount /ossshare`)	2010-07-28T22:12:49.390	66
+141	138	1	There are 2 different types of computers that will work for me.  A netbook with a multi-touch screen and a tablet.  This is why I have the tablet/netbook in the question.	2010-07-28T22:25:46.227	138
+142	165	2	I believe you can download the NoMachine NX client for Windows and that it works with FreeNX- though I could be wrong.
+http://www.nomachine.com/download.php	2010-07-28T22:26:06.243	165
+143	138	0	Right now they are not shipping any units because they are working on their latest innovation.  So I'm not sure if I will have time to wait for this one.	2010-07-28T22:29:18.567	138
+144	165	4	You should probably re-title this as something along the lines of 'How to update iPod firmware from Ubuntu' as your title is subjective for the most part and not really to the point of your question	2010-07-28T22:36:56.687	165
+146	56	0	Adobe Flash is in a PPA and it's proprietary -- why not F#?	2010-07-28T22:42:10.987	56
+147	28	1	Agreed with the above, those downvoting ought to read the question however as it is a legitimate query.	2010-07-28T22:48:11.167	28
+148	24	0	I assume you meant to refer to apt-get (dist-)upgrade?	2010-07-28T22:52:59.960	24
+149	129	0	I can't find Flash in a PPA, only installer packages. If redistribution isn't allowed by the license, then it can't be put on launchpad.	2010-07-28T22:58:12.073	129
+150	130	2	I don't think so. dist-upgrade takes the entire system to a new release. I'm talking about day-to-day updates, like the ones you see in Update Manager.	2010-07-28T22:59:49.387	130
+151	5	1	+1 for Ubuntu Tweak.	2010-07-28T23:01:27.510	5
+152	130	1	Oh, I see what you're saying now. Heh, I run apt-get update so often, I type it without thinking. Thanks for the heads-up!	2010-07-28T23:02:12.457	130
+155	35	0	Yes. I'm not sure which yet, but either the GPL or the LGPL.	2010-07-28T23:09:27.187	35
+156	24	0	Perfect, thanks!	2010-07-28T23:16:42.230	24
+158	28	4	This is a very subjective post, since different docks have different merits. Could it be made community wiki? Also the title could be changed to reflect that it's a post about the differences - rather than which is objectively "the best".	2010-07-28T23:18:19.637	28
+159	169	0	Well, the display manager is actually what greets you, and asks for the login.
+I use this to switch between kdm, gdm and others.
+Is your gdm rather messed up? Then there's some system preferences app to select another theme maybe?	2010-07-28T23:21:37.883	169
+160	128	0	That's the thing, I don't need to. Once I press S to skip and login, /osshare is mounted.	2010-07-28T23:23:39.910	128
+163	57	4	It's important to note that Fedora also backed it out after the sky fell down on them.	2010-07-28T23:34:37.677	57
+164	130	1	It appears that the method described in that wiki page depends on setting aptitude's --target-release argument to <release>-security. Like the OP of that question, that method installs all upgrades, not just security upgrades.
+
+Reading the apt-get and aptitude man pages, I don't think the --target-release argument is even intended to limit upgrades to just security, though I'm not sure just what it _is_ for.	2010-07-28T23:38:03.240	130
+165	170	0	I've got it configured through Ubuntu by installing the printer from the PPD file from Brother -> Brother-HL-2170W-pxlmono.ppd, for network printing. 
+
+Printing anything takes around 1-3 minutes, even for basic printing. I thought this was a driver issue and wanted to get the correct driver from Brother - which would hopefully solve the slow printing problem.	2010-07-28T23:45:13.477	170
+166	57	1	`apt-get upgrade` installs new kernels for me if there is one. What Ubuntu version are you using? The only thing I have up to check right now is 10.04...	2010-07-28T23:53:18.813	57
+167	154	1	10.04 also, it tells me "These updates are kept from being upgraded" (translated from French). and it lists the linux updates.	2010-07-28T23:57:24.187	154

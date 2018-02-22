@@ -7,9 +7,9 @@ from bs4 import BeautifulSoup
 import nltk
 from nltk.corpus import stopwords
 
-graph = open("AnswerGraph.txt","w")
 NUM_PROCS = 8
 MAX_LEN = -1
+graph = open("QuesGraph.txt","w")
 mutex = Lock()
 REMOVE_STOP = False
 QUESTION_WORDS = [ "what", "when", "where", "why", "how", "who" ]
@@ -29,38 +29,47 @@ def parse(post):
 
 
     id = int(soup.row["id"])
-    ParentId = int(soup.row["parentid"])
     CreationDate = soup.row["creationdate"]
     Score = soup.row["score"]
+    ViewCount = soup.row["viewcount"]
     OwnerUserId = soup.row["owneruserid"]
     try:
         LastEditorUserId = soup.row["lasteditoruserid"]
     except:
-        say("\rNo last editor user id found for post {}; skip.\n".format(id))
+        say("\rNo Last editor user id found for post {}; skip.\n".format(id))
         LastEditorUserId = " "
-        # return None, None, None, None, None, None, None, None, None, None, None
-
     try:
         LastEditDate = soup.row["lasteditdate"]
     except:
-        say("\rNo last editor date found for post {}; skip.\n".format(id))
+        say("\rNo Last edit datefound for post {}; skip.\n".format(id))
         LastEditDate = " "
-    
     LastActivityDate = soup.row["lastactivitydate"]
+    AnswerCount = soup.row["answercount"]
     CommentCount = soup.row["commentcount"]
     
+    try: 
+        ans = soup.row["acceptedanswerid"]
+    except:
+        say("\rNo Accepted answers found for post {}; skip.\n".format(id))
+        ans = "0"
+
+    try: 
+        FavoriteCount = int(soup.row["favoritecount"])
+    except:
+        say("\rNo fav count found for post {}; skip.\n".format(id))
+        FavoriteCount = 0
+
     try:
         title = soup.row["title"]
     except:
         say("\rNo title found for post {}; skip.\n".format(id))
         title = " "
-        # return None, None, None, None, None, None, None, None, None, None, None
+
     try:
         body = soup.row["body"]
     except:
         say("\rNo body found for post {}; skip.\n".format(id))
         body = " "
-        # return None, None, None, None, None, None, None, None, None, None, None
 
     body_soup = BeautifulSoup(body, "lxml")
 
@@ -83,20 +92,21 @@ def parse(post):
     title_text = " ".join(title_words)
     body_text = " ".join(body_words)
     assert "\n" not in body_text
+
     mutex.acquire()
-    graph.write(soup.row["id"] + " " + soup.row["parentid"] + "\n")
+    graph.write(soup.row["id"] + " " + ans + "\n")
     graph.flush()
     mutex.release()
-    return id, ParentId, CreationDate, Score, OwnerUserId, LastEditorUserId, LastEditDate, LastActivityDate, CommentCount, title_text, body_text
+    return id, ans, CreationDate, Score, ViewCount, OwnerUserId, LastEditorUserId, LastEditDate, LastActivityDate, AnswerCount, CommentCount, FavoriteCount, title_text, body_text
 
 def worker(queue_in, queue_out):
     while True:
         post = queue_in.get()
         if post == None: break
-        # id, ans, title, body = parse(post)
-        id, ParentId, CreationDate, Score, OwnerUserId, LastEditorUserId, LastEditDate, LastActivityDate, CommentCount, title_text, body_text = parse(post)
+        id, ans, CreationDate, Score, ViewCount, OwnerUserId, LastEditorUserId, LastEditDate, LastActivityDate, AnswerCount, CommentCount, FavoriteCount, title_text, body_text = parse(post)
         if id is not None:
-            queue_out.put((id, ParentId, CreationDate, Score, OwnerUserId, LastEditorUserId, LastEditDate, LastActivityDate, CommentCount, title_text, body_text))
+            queue_out.put((id, ans, CreationDate, Score, ViewCount, OwnerUserId, LastEditorUserId, LastEditDate, LastActivityDate, AnswerCount,
+                CommentCount, FavoriteCount, title_text, body_text))
     queue_out.put(None)
 
 def collector(queue_out):
@@ -116,7 +126,7 @@ def collector(queue_out):
     N = len(data)
     for i in xrange(N):
         assert i == 0 or data[i][0] > data[i-1][0]
-        say("{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\n".format(*data[i]), stream=sys.stdout)
+        say("{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\t{}\n".format(*data[i]), stream=sys.stdout)
 
 if len(sys.argv) != 2:
     say("Usage:\n")
@@ -146,8 +156,8 @@ with fopen(sys.argv[1]) as fin:
         # say(line)
         # say("\n")
         if line.startswith("<row Id=\""):
-            # answer post has post type "1"
-            if "PostTypeId=\"2\"" in line:
+            # question post has post type "1"
+            if "PostTypeId=\"1\"" in line:
                 queue_in.put(line)
         cnt += 1
         if cnt % 1000 == 0:
@@ -160,4 +170,4 @@ for i in xrange(NUM_PROCS):
 for p in procs:
     p.join()
 collector_proc.join()
-graph.close() 
+graph.close()

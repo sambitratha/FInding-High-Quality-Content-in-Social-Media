@@ -1,0 +1,364 @@
+1	2	1	0c0a2a64-8fac-428d-95a1-9ea8eae674c0	2010-07-28T19:04:21.300	5	Everytime I turn on my computer, I see a message saying something like:
+
+> Your battery may be old or broken. Etc...
+
+I know my battery is not working. How can I make the message go away?
+2	1	1	0c0a2a64-8fac-428d-95a1-9ea8eae674c0	2010-07-28T19:04:21.300	5	How to get the "Your battery is broken" message to go away?
+3	3	1	0c0a2a64-8fac-428d-95a1-9ea8eae674c0	2010-07-28T19:04:21.300	5	<battery><notification>
+4	2	2	3163df6e-79e5-4b09-8497-d8381253f851	2010-07-28T19:15:30.357	4	Maybe [these][1] will help you to get rid of that message.
+
+
+  [1]: http://linux.aldeby.org/get-rid-of-your-battery-may-be-broken-notification.html
+5	2	3	1a83f430-5dd7-40cc-80d4-d75218736155	2010-07-28T19:21:50.653	35	How can I set the Software Center to allow non-root users to install stuff from the Ubuntu repos without having to type in their password? I'm fully aware of the security implications, and am willing to take the risk. Fedora 12 shipped with something like this. (By modifying the PolicyKit configuration, I believe)
+6	1	3	1a83f430-5dd7-40cc-80d4-d75218736155	2010-07-28T19:21:50.653	35	How can set the Software Center to install software for non-root users?
+7	3	3	1a83f430-5dd7-40cc-80d4-d75218736155	2010-07-28T19:21:50.653	35	<ubuntu><software-center><installation>
+9	2	5	9e202767-181f-4c2b-98b3-39a8fdfc819e	2010-07-28T19:23:40.273	10	What are some alternatives to upgrading without using the standard upgrade system. Suppose for example that I wanted to upgrade an Ubuntu installation on a machine with a poor Internet connection. What would my options be. Could I just use a standard Ubuntu disk to upgrade this machine? If I already have a standard Ubuntu disk and want to use that, could I do a clean install without wiping data?
+10	1	5	9e202767-181f-4c2b-98b3-39a8fdfc819e	2010-07-28T19:23:40.273	10	Upgrade Alternatives
+11	3	5	9e202767-181f-4c2b-98b3-39a8fdfc819e	2010-07-28T19:23:40.273	10	<installation><upgrade><live-cd>
+12	2	6	aa49066f-4bf0-4232-9953-706d5034d079	2010-07-28T19:23:41.227	27	I have a ubuntu development server at work. It is an old rack server that is located somewhere in the company's dungeon, where nobody ever goes :)The only way it can work is as a so-called headless server (i.e. with no monitor/keybord connected and only accepting network connections).
+
+Obviously, if you just need terminal access ssh is more than enough. I, however, would also like to connect to the graphical interface from time to time. At the moment I am using the built in VNC functionality but I am pretty sure this is neither the most efficient nor the most secure way of approaching this issue.
+
+I have done a bit of research on the issue but failed to come to any definite conclusions. I read about trying to forward the X environment over ssh, which would at least solve my security concerns. Can anyone share their experiences in setting this up? Is there any other way that might be worth looking at?
+13	1	6	aa49066f-4bf0-4232-9953-706d5034d079	2010-07-28T19:23:41.227	27	Whet is the best way to set up a Ubuntu-based headless server?
+14	3	6	aa49066f-4bf0-4232-9953-706d5034d079	2010-07-28T19:23:41.227	27	<server><ssh><vnc><remote-desktop>
+15	2	7	e55a2d89-5d22-4d1e-a035-c636006eeead	2010-07-28T19:24:22.550	43	I'm taking my be-stickered laptop to a coffee shop tonight for an Ubuntu Hour.  I've let a bunch of local LUG people know about it.  How can I ensure people come away from it feeling like the experience was valuable?  Is there something you've done that was particularly successful?
+16	1	7	e55a2d89-5d22-4d1e-a035-c636006eeead	2010-07-28T19:24:22.550	43	How do I run a successful Ubuntu Hour?
+17	3	7	e55a2d89-5d22-4d1e-a035-c636006eeead	2010-07-28T19:24:22.550	43	<community>
+18	2	8	342f2e65-0044-4452-98d6-e4ce625614ca	2010-07-28T19:24:41.037	50	I started with Ubuntu Karmic, and wanted to try KDE. So I installed `kubuntu-desktop`. Then I wanted to see how XFCE progressed, so I installed `xfce4`. I now have Kubuntu with an XFCE splash and login.
+
+How do I (safely) purge XFCE and just have the Kubuntu splash / login screen?
+19	1	8	342f2e65-0044-4452-98d6-e4ce625614ca	2010-07-28T19:24:41.037	50	Help, I went *buntu crazy
+20	3	8	342f2e65-0044-4452-98d6-e4ce625614ca	2010-07-28T19:24:41.037	50	<kubuntu><xfce>
+21	2	9	4477ea01-65e2-4150-9391-a3d1af3cbd0b	2010-07-28T19:26:46.273	56	Update Manager is constantly offering me updates (e.g. security fixes, updates from PPAs). How can I simply tell my Ubuntu installation to automatically download and install updates whenever they become available?
+22	1	9	4477ea01-65e2-4150-9391-a3d1af3cbd0b	2010-07-28T19:26:46.273	56	How do I enable automatic updating?
+23	3	9	4477ea01-65e2-4150-9391-a3d1af3cbd0b	2010-07-28T19:26:46.273	56	<updates><update-manager>
+24	2	10	1d3855d2-1504-4229-b8f0-782a9391c625	2010-07-28T19:26:53.573	4	You could use [freenx][1] instead of vnc. Freenx transmits x-commands (with caching) instead of bitmaps.
+
+
+  [1]: https://help.ubuntu.com/community/FreeNX
+25	2	11	529c8bcb-f73b-4d27-968b-0e5d0fcf028c	2010-07-28T19:27:09.843	63	I have had significant problems with watching flash video in 64-bit Ubuntu.  Does anyone know of a good way to get flash running on the platform?
+26	1	11	529c8bcb-f73b-4d27-968b-0e5d0fcf028c	2010-07-28T19:27:09.843	63	How do I view flash video in Ubuntu 64-bit?
+27	3	11	529c8bcb-f73b-4d27-968b-0e5d0fcf028c	2010-07-28T19:27:09.843	63	<flash><64-bit>
+28	2	12	28c8e968-113b-4b97-8c10-c5c9216e30a2	2010-07-28T19:27:32.073	10	Yes, X forwarding over ssh is a beautiful thing indeed. It allows you to use graphical applications on an app by app basis and have windows handled by your own desktop environment. You do not even need a desktop environment installed on the server.
+
+You do need to set up some authentication things for it to work though. I believe you need xauth for that.
+29	12	12	6bd9b0a7-1f19-495b-a8c1-7af1a4579a2c	2010-07-28T19:27:38.063	10	{"Voters":[{"Id":10,"DisplayName":"DLH"}]}
+31	2	14	b37bc192-131c-45a2-83ae-f060078c9838	2010-07-28T19:29:16.907	39	I'd like to have Ubuntu not check for updates as often. How do I accomplish this?
+32	1	14	b37bc192-131c-45a2-83ae-f060078c9838	2010-07-28T19:29:16.907	39	How can I throttle the frequency of updates?
+33	3	14	b37bc192-131c-45a2-83ae-f060078c9838	2010-07-28T19:29:16.907	39	<updates>
+34	2	15	836aafb9-6f2e-44db-af47-1076a9187367	2010-07-28T19:29:17.233	71	I've followed the steps outlined in this HowTo: http://ubuntuforums.org/showthread.php?t=1493143
+
+Right after I log in to Gnome I can move the mouse back and forth but as soon as the task bar loads, the mouse becomes jailed in the screen its in (can't move between screens).
+
+
+This is my xorg.conf:
+
+
+     Section "ServerLayout"
+                Identifier     "Layout0"
+                Screen      0  "DisplayLinkScreen" 0 0
+                Screen   1  "Screen0" LeftOf "DisplayLinkScreen"
+                InputDevice    "Keyboard0" "CoreKeyboard"
+                InputDevice    "Mouse0" "CorePointer"
+                Option     "Xinerama" "0" #Could not get this to work it has to be disable
+    EndSection
+    
+    Section "Files"
+     ModulePath   "/usr/local/lib/xorg/modules/drivers"
+     ModulePath      "/usr/lib/xorg/modules/drivers"
+     ModulePath      "/usr/local/lib"
+    
+     ModulePath   "/usr/lib/xorg/modules"
+     FontPath     "/usr/share/fonts/X11/misc"
+     FontPath     "/usr/share/fonts/X11/cyrillic"
+     FontPath     "/usr/share/fonts/X11/100dpi/:unscaled"
+     FontPath     "/usr/share/fonts/X11/75dpi/:unscaled"
+     FontPath     "/usr/share/fonts/X11/Type1"
+     FontPath     "/usr/share/fonts/X11/100dpi"
+     FontPath     "/usr/share/fonts/X11/75dpi"
+     FontPath     "/var/lib/defoma/x-ttcidfont-conf.d/dirs/TrueType"
+     FontPath     "built-ins"
+    EndSection
+    
+    Section "Module"
+     Load  "dbe"
+     Load  "dri"
+     Load  "dri2"
+     Load  "extmod"
+     Load  "glx"
+     Load  "record"
+    EndSection
+    
+    Section "InputDevice"
+     Identifier  "Keyboard0"
+     Driver      "kbd"
+    EndSection
+    
+    Section "InputDevice"
+     Identifier  "Mouse0"
+     Driver      "mouse"
+     Option     "Protocol" "auto"
+     Option      "Device" "/dev/psaux" 
+     # Option     "Device" "/dev/input/mice"
+     Option     "ZAxisMapping" "4 5 6 7"
+    EndSection
+    
+    Section "Monitor"
+     Identifier   "Monitor0"
+     VendorName   "Monitor Vendor"
+     ModelName    "Monitor Model"
+    EndSection
+    
+    Section "Device"
+            ### Available Driver options are:-
+            ### Values: <i>: integer, <f>: float, <bool>: "True"/"False",
+            ### <string>: "String", <freq>: "<f> Hz/kHz/MHz"
+            ### [arg]: arg optional
+            #Option     "NoAccel"             # [<bool>]
+            #Option     "SWcursor"            # [<bool>]
+            #Option     "ColorKey"            # <i>
+            #Option     "CacheLines"          # <i>
+            #Option     "Dac6Bit"             # [<bool>]
+            #Option     "DRI"                 # [<bool>]
+            #Option     "NoDDC"               # [<bool>]
+            #Option     "ShowCache"           # [<bool>]
+            #Option     "XvMCSurfaces"        # <i>
+            #Option     "PageFlip"            # [<bool>]
+     Identifier  "Card0"
+     Driver      "intel"
+     VendorName  "Intel Corporation"
+     BoardName   "Core Processor Integrated Graphics Controller"
+     BusID       "PCI:0:2:0"
+     Option     "DPMS"
+    EndSection
+    
+    Section "Screen"
+     Identifier "Screen0"
+     Device     "Card0"
+     Monitor    "Monitor0"
+     SubSection "Display"
+      Viewport   0 0
+      Depth     1
+     EndSubSection
+     SubSection "Display"
+      Viewport   0 0
+      Depth     4
+     EndSubSection
+     SubSection "Display"
+      Viewport   0 0
+      Depth     8
+     EndSubSection
+     SubSection "Display"
+      Viewport   0 0
+      Depth     15
+     EndSubSection
+     SubSection "Display"
+      Viewport   0 0
+      Depth     16
+     EndSubSection
+     SubSection "Display"
+      Viewport   0 0
+      Depth     24
+     EndSubSection
+    EndSection
+    
+    Section "Monitor"
+        Identifier     "DisplayLinkMonitor"
+    EndSection
+    Section "Device"
+        Identifier  "DisplayLinkDevice"
+        Driver  "displaylink"
+        Option   "fbdev" "/dev/fb0"
+    EndSection
+    Section "Screen"
+        Identifier      "DisplayLinkScreen"
+        Device          "DisplayLinkDevice"
+        Monitor         "DisplayLinkMonitor"
+        SubSection "Display"
+            Depth       24
+            Modes       "1920x1200" "1920x1080" "1680x1050" "1600x1200" "1440x900" "1366x768" "1280x1024" "1280x960" "1280x800"  "1280x768"  "1152x864" "1024x768" "800x600" "640x480" 
+        EndSubSection
+    EndSection
+
+Any help would be appreciated. I'm so close to getting this to work!
+35	1	15	836aafb9-6f2e-44db-af47-1076a9187367	2010-07-28T19:29:17.233	71	cant move mouse between xrandr screens
+36	3	15	836aafb9-6f2e-44db-af47-1076a9187367	2010-07-28T19:29:17.233	71	<xrandr><displaylink><mouse><10.04>
+37	13	12	0257d527-adc8-4fbf-97af-e52272456e3e	2010-07-28T19:29:23.397	10	{"Voters":[{"Id":10,"DisplayName":"DLH"}]}
+38	2	16	955fd471-c361-48d6-bdbb-0606400ee004	2010-07-28T19:30:10.117	20	[Sage's installation instructions][1] basically tell me to just untar it and run it from whereever I'd like. Not being experienced with the linux way of where things should go in the filesystem, I'm kind of at a loss where I shoud best put it. Putting it somewhere in ~ feels wrong.
+
+Where would you extract it to? /opt?
+
+  [1]: http://sagemath.org/download-linux.html
+39	1	16	955fd471-c361-48d6-bdbb-0606400ee004	2010-07-28T19:30:10.117	20	Where should I install sagemath to?
+40	3	16	955fd471-c361-48d6-bdbb-0606400ee004	2010-07-28T19:30:10.117	20	<installation><filesystem>
+42	2	18	dc19145c-c41b-4c48-a99a-40a9ad600ba7	2010-07-28T19:30:41.707	4	You can use the alternative CD (instead of Ubuntu Desktop, Kubuntu Desktop, Server CD) which allows you to upgrade from CD.
+43	2	19	3d0307ef-b78f-41d1-8095-519b900646ce	2010-07-28T19:31:05.640	41	I've always helped identified people's needs and showed them how Ubuntu's implemented those needs. My audience is usually Mac and Windows people - but it's the same idea. Spend a few minutes touching on the new features in 10.04 then let the questions begin. I've also found that spending a little time highlighting what you like and use it for is also helpful to show <em>why</em> you like/use Ubuntu.
+
+Try not to (as I've made the mistake in the past) to be THIS IS > ALL OF YOUR ALTERNATIVES as it's usually frowned upon.
+45	2	21	b29369a7-78ce-4b3a-a9a6-f1d8f1201cd4	2010-07-28T19:31:36.527	5	Are you installing it from the Ubuntu Software Center?
+
+ 1. Go to Applications->Ubuntu Software Center.
+ 2. Click on Canonical Partners
+ 3. Click the Adobe Flash Plugin 10 and click install.
+
+46	2	22	16839faa-89fb-4859-b2ff-4da3b78fbc7a	2010-07-28T19:31:55.090	50	While inherently insecure, you could use [XDMCP][1] over a local network. I use it frequently to access virtual machines. Its just like logging on to your desktop, except you chose the remote server.
+
+
+  [1]: http://tldp.org/HOWTO/XDMCP-HOWTO/
+47	2	23	a4debc5a-ddeb-4d3f-95f3-93ce2515f4db	2010-07-28T19:32:26.087	4	/opt is a viable option. Some people install it under /usr/local/
+48	2	24	ee5b158b-de78-4dcd-97e5-cb72451a0555	2010-07-28T19:32:26.087	24	In the upper right panel there is by default a drop down menu where you can set your online status, interact with Ubuntu One, etc. It is placed right next to the drop down menu which lets you logout, reboot, shutdown etc.
+
+For me personally I have no use for the online status menu, so I usually remove it. The problem is that it seems to belong to the same panel applet as the actually wanted logout menu, since that menu too disappears. I believe we are talking about the "Indicator Applet Session".
+
+Is there some way I can hide or disable the online status menu, but still keep the neighboring logout menu?
+
+I am running Ubuntu 10.04.
+49	1	24	ee5b158b-de78-4dcd-97e5-cb72451a0555	2010-07-28T19:32:26.087	24	Indicator Applet Session: remove online status menu, but keep the logout menu?
+50	3	24	ee5b158b-de78-4dcd-97e5-cb72451a0555	2010-07-28T19:32:26.087	24	<panel><applet>
+52	2	26	233a0645-928f-4a35-8966-73ad30cbe967	2010-07-28T19:33:02.263	66	Go to terminal, and enter:
+
+    sudo dpkg-reconfigure unattended-upgrades
+
+Say "yes" to the prompt. You'll still be notified about "normal" updates, such as those that contain bugfixes, but security updates will be installed automatically.
+53	5	12	d92d35a6-bcb0-4170-a61a-d7cede23b1ee	2010-07-28T19:33:04.090	10	Yes, X forwarding over ssh is a beautiful thing indeed. It allows you to use graphical applications on an app by app basis and have windows handled by your own desktop environment. You do not even need a desktop environment installed on the server.
+
+You do need to set up some authentication things for it to work though. I believe you need xauth for that.
+
+It's SO much faster than VNC as well. VNC was always rather laggy in my experience.
+54	2	27	04227db8-26f8-4d67-b266-f7f3163266a1	2010-07-28T19:33:09.253	5	From a terminal:
+
+    sudo apt-get uninstall xfce4
+55	16	7	23811a98-ed38-4010-99cf-413ec6366b77	2010-07-28T19:34:40.093	43	 
+56	2	28	8ec82ce0-8b30-48e6-a238-0e78b60a052b	2010-07-28T19:35:09.530	50	I'm using Hardy (server) on quite a few machines and I'd like to upgrade to the latest LTS. Is it safe to edit my `sources.list` file to just point to the new LTS, or should I do a succession of dist upgrades until I reach the latest LTS?
+
+
+57	1	28	8ec82ce0-8b30-48e6-a238-0e78b60a052b	2010-07-28T19:35:09.530	50	Sane path to distribution upgrades
+58	3	28	8ec82ce0-8b30-48e6-a238-0e78b60a052b	2010-07-28T19:35:09.530	50	<upgrade><lts>
+60	2	30	92d4fdc6-5c33-49d6-82e7-11e89092c584	2010-07-28T19:35:50.167	9	System -> Administration -> Software Sources -> Updates (tab) -> Check for updates: [Daily | Every two days | Weekly | Every two months]
+61	2	31	57a8e181-8f2e-4d80-b3f4-4bb7f1fb6c09	2010-07-28T19:36:09.900	77	Open Update Manager (System->Administration->Update Manager).  On the Updates tab, there's a drop down box for "Check for updates:", with options for Daily, every two days, weekly or every two weeks.  Or you can turn it off and just check manually whenever you want.
+63	5	21	3f3814e3-a7ed-475f-8d45-ce52084d032c	2010-07-28T19:36:52.537	5	Are you installing it from the Ubuntu Software Center?
+
+ 1. Go to Applications->Ubuntu Software Center.
+ 2. Click on Canonical Partners
+ 3. Click the Adobe Flash Plugin 10 and click install.
+
+**Note:** this is the method I use on my 64-bit Ubuntu install and it has yet to fail me.
+64	5	9	09b78d82-991a-4c13-b7fa-3af4c5151619	2010-07-28T19:36:57.357	56	Update Manager is constantly offering me updates (e.g. security fixes, updates from PPAs). How can I tell my Ubuntu installation to automatically download and install updates whenever they become available?
+65	2	33	563f0463-b1c4-4032-8c61-b3ab76ce1b21	2010-07-28T19:37:07.560	82	we have installed an ubuntu desktop edition on our development server, and now that we have it in a data center would like to strip it down to a server edition.
+Is there an easy way of doing then just going in and uninstalling packages by hand.
+66	1	33	563f0463-b1c4-4032-8c61-b3ab76ce1b21	2010-07-28T19:37:07.560	82	What is the easiest way to strip an desktop edition to a server edition ?
+67	3	33	563f0463-b1c4-4032-8c61-b3ab76ce1b21	2010-07-28T19:37:07.560	82	<installation><ubuntu><desktop-edition><server-edition>
+68	2	34	989ccd74-34b4-45ee-8e4b-f4fca0e85667	2010-07-28T19:37:14.843	68	I set up a new VPS instance of Ubuntu and am wondering what the easiest way is to get up and running with a basic LAMP stack (i.e. which packages are required, which configuration options need to be tweaked, if any, etc.).
+69	1	34	989ccd74-34b4-45ee-8e4b-f4fca0e85667	2010-07-28T19:37:14.843	68	What's the easiest way to set up a LAMP stack on Ubuntu?
+70	3	34	989ccd74-34b4-45ee-8e4b-f4fca0e85667	2010-07-28T19:37:14.843	68	<lamp><mysql><php><apache2>
+71	2	35	d17249af-06e9-45b7-89c1-7e9fb2b7556b	2010-07-28T19:37:56.700	69	You can do this for security updates, but not for all updates, or at least not very easily. To enable automatic security updates:
+
+From System > Administration open Update Manager. Click the 'Settings...' button, then on the 'Updates' tab, select the radio button 'Install security updates without confirmation.'
+
+72	2	36	ca9d34ec-5352-4e58-9d2a-8af23e7e4456	2010-07-28T19:39:43.310	82	Hello we have installed an ubuntu desktop edition on our dev server.
+I was wondering if there is any noticeable performance loss compared to the server edition.
+73	1	36	ca9d34ec-5352-4e58-9d2a-8af23e7e4456	2010-07-28T19:39:43.310	82	What is the performance loss if you run an ubuntu desktop edition for a server machine ?
+74	3	36	ca9d34ec-5352-4e58-9d2a-8af23e7e4456	2010-07-28T19:39:43.310	82	<ubuntu><desktop-edition><server-edition><performance>
+75	2	37	b928b21a-b04f-4c51-9f35-427b167b2073	2010-07-28T19:39:48.457	56	 - Does encrypting my home folder make my computer more secure?
+ - Do I have to enter my password more if my home folder is encrypted?
+ - What else should I know about encrypting my home folder?
+76	1	37	b928b21a-b04f-4c51-9f35-427b167b2073	2010-07-28T19:39:48.457	56	When installing Ubuntu, I'm given the option of encrypting my home folder -- what does this option do?
+77	3	37	b928b21a-b04f-4c51-9f35-427b167b2073	2010-07-28T19:39:48.457	56	<installation><encryption>
+78	2	38	5fa72b7a-0e68-45fa-8328-5d605921f9c2	2010-07-28T19:40:19.907	68	I have a VPS set up with Ubuntu 10.04 running exim4 as the MTA.  The machine name itself is something easily recognizable to us (in this case, 'Fermat'), but the machine itself is responsible for serving up one of our domains (i.e. www.example.com).
+
+When generating an email from exim, the email headers are reporting the server name (Fermat) instead of the domain name (example.com).
+
+Is there a way to 'force' exim to report the server name as example.com without changing the machine's host name?
+79	1	38	5fa72b7a-0e68-45fa-8328-5d605921f9c2	2010-07-28T19:40:19.907	68	How to configure mail server to report a hostname distinct from server name
+80	3	38	5fa72b7a-0e68-45fa-8328-5d605921f9c2	2010-07-28T19:40:19.907	68	<email><mta>
+81	2	39	62c85174-7601-4c8f-9bd5-81ac1f2d71c4	2010-07-28T19:40:21.497	4	No. You should never just edit sources.list. Use the update-manager, or if you use command line, use "do-release-upgrade". You can upgrade safely from LTS to LTS, or you need to step via each release otherwise. Only those pathways are supported, and prevent some issues that can otherwise occur.
+82	2	40	9aa1f483-b642-46d0-98df-6c84e964862f	2010-07-28T19:40:38.843	75	I believe you can upgrade directly from LTS to LTS, see e.g. https://help.ubuntu.com/community/LucidUpgrades
+83	2	41	c1d9825f-4417-4e6b-b09e-6b0f0ae34fec	2010-07-28T19:41:01.760	42	How does one reset the gnome panel to the initial state?
+
+During use, gnome panel applets move and get replaced with the ones users like. After some time the panel becomes so cluttered that it requires a cleanup. The easiest way would be to reset the panel to the original state that it was in after install. Is there an easy way of doing that?
+84	1	41	c1d9825f-4417-4e6b-b09e-6b0f0ae34fec	2010-07-28T19:41:01.760	42	Resetting gnome panel
+85	3	41	c1d9825f-4417-4e6b-b09e-6b0f0ae34fec	2010-07-28T19:41:01.760	42	<panel><cleanup>
+86	5	7	cfdf26cd-753a-4c6e-9242-385daa75a01a	2010-07-28T19:41:04.617	43	I'm taking my be-stickered laptop to a coffee shop tonight for an Ubuntu Hour.  I've let a bunch of local LUG people know about it.  How can I ensure people come away from it feeling like the experience was valuable?  Is there something you've done that was particularly successful?
+
+There is a [wiki page](http://wiki.ubuntu.com/Hour) about Ubuntu Hours which is very helpful.  I'm interested in collecting best practices from the community.
+88	2	43	1558c049-1104-4982-bdec-f0df46bd3b3b	2010-07-28T19:41:24.053	4	On cammand line the simplest way is probably to use [tasksel][1].
+
+
+  [1]: https://help.ubuntu.com/community/Tasksel
+89	2	44	6558deed-1976-4872-a635-8146c4885b7c	2010-07-28T19:41:46.753	5	It's possible to do it the other way around, but I've never seen anyone who was able to do this simply by installing a metapackage or something.
+
+Your best bet is either:
+
+ - a clean install
+ - manually removing unneeded packages and installing the server components you need
+90	2	45	44a4a5d4-a884-4b67-9df5-b68013822979	2010-07-28T19:41:59.903	24	    $ sudo tasksel install lamp-server
+
+It will install all the basic LAMP stack for you, prompt for MySQL root password, etc.
+
+More specifically it will install the following packages, and their dependencies.
+
+> mysql-client-core-5.1 libwrap0 apache2
+> libaprutil1-dbd-sqlite3 tcpd
+> libapache2-mod-php5 apache2.2-common
+> apache2-utils php5-common
+> libaprutil1-ldap libaprutil1
+> php5-mysql mysql-server-core-5.1
+> libdbi-perl libplrpc-perl mysql-server
+> apache2.2-bin libdbd-mysql-perl
+> libhtml-template-perl
+> libnet-daemon-perl libapr1
+> mysql-server-5.1 libmysqlclient16
+> ssl-cert apache2-mpm-prefork
+> mysql-common mysql-client-5.1
+
+You might also want to take a peek at the [Ubuntu Server Guide][1].
+
+(Assuming Ubuntu 10.04)
+
+
+  [1]: https://help.ubuntu.com/10.04/serverguide/C/
+92	2	47	930d5253-eff3-4af4-90d0-e07e1531e5b8	2010-07-28T19:42:11.867	50	I'm using Kubuntu (Karmic) and KATE is my favorite editor. I don't enable many plug-ins, but I really like the inline shell. 
+
+The problem is, across re-starts, KATE seems to forget that I enabled this plug-in. I've checked across all sessions and the behavior is the same. 
+
+Is there some easy way to fix this?
+93	1	47	930d5253-eff3-4af4-90d0-e07e1531e5b8	2010-07-28T19:42:11.867	50	KATE keeps forgetting I have the shell plug-in enabled
+94	3	47	930d5253-eff3-4af4-90d0-e07e1531e5b8	2010-07-28T19:42:11.867	50	<kubuntu><kate>
+95	2	48	c2dc501b-3cf2-41a1-b2a9-633fe7153dcb	2010-07-28T19:42:13.567	86	I use [x11vnc][1], which works very well for me. It lets you keep a persistent graphical session between connections, so you can disconnect and reconnect and everything will be just the way you left it. It also supports tunneling over SSH. See [this][2] for a short description and some instructions on setting it up.
+
+
+  [1]: http://www.karlrunge.com/x11vnc/
+  [2]: https://help.ubuntu.com/community/VNC/Servers#x11vnc
+100	6	41	0dc7e6e7-de96-4a24-a7f6-ed244360f32e	2010-07-28T19:43:30.303	4	<panel><cleanup><gnome>
+101	2	50	f454a527-3657-4a56-b210-174ec71e5edd	2010-07-28T19:43:35.123	91	Is there a way to change how long the libnotify notifications last? I've googled around for this for months and no still no luck. 
+
+I'm actually starting to think that you can't change it. I can't even find anywhere in the API where developers can control this.
+102	1	50	f454a527-3657-4a56-b210-174ec71e5edd	2010-07-28T19:43:35.123	91	Notification Display Time
+103	3	50	f454a527-3657-4a56-b210-174ec71e5edd	2010-07-28T19:43:35.123	91	<notification><libnotify>
+104	2	51	fb147ac1-dfa5-4e2c-8277-e570307715bb	2010-07-28T19:44:59.943	45	For some reason, sometimes when I log in the top panel applets appear garbled. For instance the session applet is missing its icon, and the current username is repeated twice. This doesn't happen very often, but when it does the session applet is not responsive so I can't get to the log out menu option.
+
+Is there any other way to log off the current user other than using the (non working) session applet?
+105	1	51	fb147ac1-dfa5-4e2c-8277-e570307715bb	2010-07-28T19:44:59.943	45	How to log out if the session applet is missing from the top panel?
+106	3	51	fb147ac1-dfa5-4e2c-8277-e570307715bb	2010-07-28T19:44:59.943	45	<applet><gnome><session>
+107	2	52	701c1d4f-1507-4b21-8117-3f5a90107135	2010-07-28T19:45:23.653	66	I don't think it's currently possible to do so via the GUI, but if you want to let them install via the CLI, add the following line to /etc/sudoers (use `sudo visudo` to edit the file):
+
+    %packageinstallers ALL = NOPASSWD: /usr/bin/apt-get
+
+Then you just need to create and add the specific users to the `packageinstallers` group:
+
+    $ sudo addgroup packageinstallers
+    $ sudo adduser jdoe packageinstallers
+
+Now `jdoe` can do the following:
+
+    $ sudo apt-get install <some-package>
+
+[PolicyKit][1] may allow you to permit such things via the GUI in the future, but I don't think you can as of today. 
+
+
+  [1]: http://www.freedesktop.org/wiki/Software/PolicyKit
+108	2	53	aa255a22-3b6e-4cf3-a7e3-9da62478bd14	2010-07-28T19:46:27.363	56	I take photos from time to time, and if I take an exceptionally beautiful one, I'd like to submit it for inclusion in Ubuntu. Where do I send/upload it?
+109	1	53	aa255a22-3b6e-4cf3-a7e3-9da62478bd14	2010-07-28T19:46:27.363	56	How do I submit wallpapers to be considered for inclusion in Ubuntu?
+110	3	53	aa255a22-3b6e-4cf3-a7e3-9da62478bd14	2010-07-28T19:46:27.363	56	<wallpaper><artwork><photography>
+111	2	54	e7b0d2e9-82b9-4c15-9b3d-41db47f3d3b6	2010-07-28T19:46:47.253	75	There's a nice article on the topic written by the Ubuntu developer himself, please see: http://www.linux-mag.com/id/7568/1/

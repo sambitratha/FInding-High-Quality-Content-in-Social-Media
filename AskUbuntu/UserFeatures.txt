@@ -1,0 +1,93 @@
+-1	1	2010-07-28T16:38:27.683	Community	2010-07-28T16:38:27.683	http://meta.stackexchange.com/	on the server farm	<p>Hi, I'm not really a person.</p>
+
+<p>I'm a background process that helps keep this site clean!</p>
+
+<p>I do things like</p>
+
+<ul>
+<li>Randomly poke old unanswered questions every hour so they get some attention</li>
+<li>Own community questions and answers so nobody gets unnecessary reputation from them</li>
+<li>Own downvotes on spam/evil posts that get permanently deleted</li>
+<li>Own suggested edits from anonymous users</li>
+<li><a href="http://meta.stackexchange.com/a/92006">Remove abandoned questions</a></li>
+</ul>
+	0	8694	55556	-1
+2	101	2010-07-28T17:09:21.300	Geoff Dalgas	2016-05-31T21:50:49.377	http://stackoverflow.com	Corvallis, OR	<p>Developer on the Stack Overflow team.  Find me on</p>
+
+<p><a href="http://www.twitter.com/SuperDalgas" rel="nofollow">Twitter</a>
+<br><br>
+<a href="http://blog.stackoverflow.com/2009/05/welcome-stack-overflow-valued-associate-00003/">Stack Overflow Valued Associate #00003</a></p>
+	167	7	0	2
+3	101	2010-07-28T18:00:10.977	Jarrod Dixon	2016-06-06T15:31:50.200	http://stackoverflow.com	New York, NY	<p><a href="http://blog.stackoverflow.com/2009/01/welcome-stack-overflow-valued-associate-00002/">Developer on the Stack Overflow team</a>.</p>
+
+<p>Was dubbed <strong>SALTY SAILOR</strong> by Jeff Atwood, as filth and flarn would oft-times fly when dealing with a particularly nasty bug!</p>
+
+<ul>
+<li>Twitter me: <a href="http://twitter.com/jarrod_dixon" rel="nofollow">jarrod_dixon</a></li>
+<li>Email me: jarrod.m.dixon@gmail.com</li>
+</ul>
+	89	46	0	3
+4	14192	2010-07-28T18:52:56.703	txwikinger	2016-06-09T22:44:57.980	http://drupal.txwikinger.me.uk	Canada	<p>Ubuntu member, Kubuntu member</p>
+	1369	980	7	45805
+5	17237	2010-07-28T19:02:12.130	Nathan Osman	2016-06-12T03:33:09.107	http://quickmediasolutions.com	Canada	<p><strong>Email:</strong> <em>nathan@quickmediasolutions.com</em></p>
+
+<p><img src="https://www.ohloh.net/accounts/499796/widgets/account_detailed.gif" alt=""></p>
+
+<p>I am both an Ubuntu user and Ubuntu member. By profession, I am a software developer and I work with C++, Python, and (more recently) Go. I enjoy tinkering with different things like <a href="https://www.youtube.com/watch?v=eI75kNvD-Co" rel="nofollow">motion tracking in Blender</a>, <a href="https://play.google.com/store/apps/details?id=com.nathanosman.chronosnap" rel="nofollow">creating an Android app for time-lapse photography</a>, or <a href="https://github.com/nathan-osman/Webmail-Notifier-Linux-Driver" rel="nofollow">writing Linux kernel modules</a>.</p>
+
+<p><sub>
+ - <a href="http://2buntu.com" rel="nofollow">2buntu</a> - community blog that I sometimes contribute to<br>
+ - <a href="http://nitroshare.net" rel="nofollow">NitroShare</a> - a cross-platform network file transfer utility<br>
+ - <a href="https://addons.mozilla.org/en-us/firefox/addon/rest-easy/" rel="nofollow">REST Easy</a> - Firefox add-on for analyzing HTTP responses
+</sub></p>
+	3156	698	79	65895
+6	101	2010-07-28T19:04:10.020	Emmett	2016-05-02T17:25:37.477	http://minesweeperonline.com	San Francisco, CA	<p>co-founder of <a href="https://airtable.com" rel="nofollow">Airtable</a></p>
+
+<p>formerly a dev at Stack Exchange :)</p>
+	36	3	0	1998
+7	808	2010-07-28T19:05:35.617	Helix	2010-11-20T23:29:03.367	 	 	<p>Physics and engineering student. Ubuntu user.</p>
+	78	52	1	514436
+8	101	2010-07-28T19:11:03.860	bernie	2016-04-28T02:09:55.957	http://adam-bernier.appspot.com/	Temple City, CA	<p>My hand-coded blog:<br>
+<a href="http://adam-bernier.appspot.com/" rel="nofollow">http://adam-bernier.appspot.com/</a></p>
+
+<p>As a hobby I produce art which may be viewed at:<br>
+<a href="https://instagram.com/mechanical_meat" rel="nofollow">https://instagram.com/mechanical_meat</a></p>
+
+<p>{adam}.{c}.{bernier}@{gmail}.{com}  </p>
+
+<p><a href="https://careers.stackoverflow.com/abernier">https://careers.stackoverflow.com/abernier</a></p>
+	23	1	0	18469
+9	359	2010-07-28T19:11:09.570	Andrew	2013-08-19T13:03:34.340	http://ahotw.com	Pennsylvania	<p>Working as a jack of all IT trades at a small company.</p>
+	26	10	0	424206
+10	1182	2010-07-28T19:11:40.207	DLH	2015-11-24T14:04:18.227	http://davidlherring.com	United States	<p>I compute.</p>
+	196	70	0	41261
+11	41	2010-07-28T19:11:47.260	hannes.koller	2016-06-11T05:51:17.760	http://soma.denkt.org	Vienna, Austria	 	16	5	0	189902
+12	3104	2010-07-28T19:11:50.677	Michael Terry	2016-05-25T13:37:02.250	http://mterry.name/	Boston	<p>I work on Ubuntu and am the maintainer for the backup program Deja Dup.</p>
+	144	138	8	86098
+13	101	2010-07-28T19:12:14.263	Keith Maurino	2014-12-03T21:45:30.750	http://www.PinkNotes.com	Farmingdale, NY	<p>Lead developer for PinkNotes at Alpha Media, Inc. I have been a professional developer since '97 and an enthusiast since I was a kid on my Commodore 64.</p>
+
+<p>PinkNotes is instant messaging designed uniquely for a business environment.</p>
+
+<p>In my spare time I love playing with my 3 kids, learning new technologies, and playing <strike>football</strike> golf.</p>
+	4	2	0	3604
+14	101	2010-07-28T19:12:38.223	Jweede	2015-04-19T22:13:34.010	http://jweede.tumblr.com/	Cincinnati, OH	<p>Probably a good developer</p>
+	6	12	0	22115
+16	100	2010-07-28T19:12:56.383	Nerdling	2016-02-21T02:02:38.643	http://lavergne.gotdns.org/	Ohio	 	6	35	2	26930
+17	1117	2010-07-28T19:13:03.060	tutuca	2016-06-06T18:19:06.047	http://ltmo.com.ar/	Cordoba, Argentina	<p>I am self-taught programmer and designer. I began doing internet-based developments in 1998 with the emergence of Flash and similar technologies.</p>
+
+<p>Today I am fully focused on programming web based applications with a broad set of skills, but is on the client side (front-end) where I work more effectively, I can perform tasks side programming server, database administration and systems. As a craftsman, I like to keep things simple and elegant, using different tools with a pragmatic approach.</p>
+
+<p>My experience in development teams also found to lead me, so I'm familiar with project management strategies and decision making.</p>
+
+<p>I like to make the workspace environment friendly, relaxed, where the communication is seamless, transparent and honest</p>
+	173	424	32	21860
+18	286	2010-07-28T19:13:13.887	excid3	2015-05-13T14:21:57.860	http://excid3.com	 	 	30	20	0	103872
+20	1046	2010-07-28T19:13:31.547	ParanoiaPuppy	2016-03-20T22:42:15.803	 	Switzerland	<p>.</p>
+	31	39	4	188714
+21	1	2010-07-28T19:14:10.327	GeoD	2011-06-01T10:41:52.543	http://www.geod.ro	Bucharest, Romania		26	0	0	514437
+22	564	2010-07-28T19:14:13.243	Alan FL	2016-03-15T06:17:59.800	http://www.alanfeatherston.com	Wellington, New Zealand	<p>CS Student / DBA</p>
+	26	51	10	8942
+23	1968	2010-07-28T19:14:14.820	Little Jawa	2016-06-03T13:36:59.730	http://none	 	<p>I am a software developper working on both Linux and Windows.
+ I'm dealing mostly with C/C++, and working on multiple levels of development (from GUI to device drivers).
+ I'm using Ubuntu on both my dev and personal computers.</p>
+	217	216	5	167250
